@@ -1,0 +1,161 @@
+Name,Seasonality,Location,Time,Price,Type,Start Time,End Time,Start Month,End Month,Start Month 1,End Month 1,Size,Image
+Anchovy,All year,Ocean,4 AM - 9 PM,200,Fish,4,21,-1,-1,0,0,Small,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/b/b8/Anchovy_ACNH.png
+Angelfish,May - Oct,River,4 PM - 9 AM,3000,Fish,16,9,5,10,0,0,Small,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/b/b5/Angelfish_ACNH.png
+Arapaima,June-September,River,4 PM - 9 AM.,10000,Fish,16,9,6,9,0,0,Largest,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/7/7d/Arapaima_ACNH.png
+Arowana,June - Sept,River,4 PM - 9 AM,10000,Fish,16,9,6,9,0,0,Large,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/7/7d/Arowana_ACNH.png
+Barred Knifejaw,Mar - Nov,Ocean,All day,5000,Fish,-1,-1,3,11,0,0,Medium,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/5/58/Barred_Knifejaw_ACNH.png
+Barreleye,All year,Ocean,9 PM - 4 AM,15000,Fish,21,4,-1,-1,0,0,Small,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/4/4a/Barreleye_ACNH.png
+Betta,May - Oct,River,9 AM - 4 PM,2500,Fish,9,16,5,10,0,0,Small,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/d/d3/Betta_ACNH.png
+Bitterling,Nov - Mar,River,All day,900,Fish,-1,-1,11,3,0,0,Smallest,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/9/9c/Bitterling_ACNH.png
+Black Bass,All year,River,All day,400,Fish,-1,-1,-1,-1,0,0,Large,"https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/5/56/Black_Bass_ACNH.png?dpr=2%22%20alt=%22Black%20Bass%20ACNH.png%22%20sizes=%22(max-width:%20640px)%20640px,%20(min-width:%20641px)%20325px%22%20width=%2260%22%20height=%2260%22%20class=%22jsx-2920405963%20image%20small%20jsx-786933128%20jsx-1961759150%22%20srcset=%22https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/5/56/Black_Bass_ACNH.png?width=325%20325w,%20https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/5/56/Black_Bass_ACNH.png?width=640%20640w,%20https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/5/56/Black_Bass_ACNH.png"
+Blowfish,Nov - Feb,Ocean,9 PM - 4 AM,5000,Fish,21,4,11,2,0,0,Medium,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/b/b8/Blowfish_ACNH.png
+Blue Marlin,"Nov - Apr, July - Sept",Pier,All day,10000,Fish,-1,-1,11,4,7,9,Extra Large,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/63/Blue_Marlin_ACNH.png
+Bluegill,All year,River,9 AM - 4 PM,180,Fish,9,16,-1,-1,0,0,Small,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/4/44/Bluegill_ACNH.png
+Butterfly Fish,April - Sept,Ocean,All day,1000,Fish,-1,-1,4,9,0,0,Small,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/5/5f/Butterfly_Fish_ACNH.png
+Carp,All year,River,All day,300,Fish,-1,-1,-1,-1,0,0,Large,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/d/d0/Carp_ACNH.png
+Catfish,May - Oct,Pond,4 PM - 9 AM,800,Fish,16,9,5,10,0,0,Large,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/9/9f/Catfish_ACNH.png
+Char,"Mar - June, Sept - Nov",River,4 PM - 9 AM,3800,Fish,16,9,3,6,9,11,Medium,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/7/75/Char_ACNH.png
+Cherry Salmon,"Mar - June, Sept - Nov",River (Clifftop),All day,1000,Fish,-1,-1,3,6,9,11,Medium,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/c/c5/Cherry_Salmon_ACNH.png
+Clownfish,Apr - Sept,Ocean,All day,650,Fish,-1,-1,4,9,0,0,Smallest,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/f/f0/Clownfish_ACNH.png
+Coelacanth,All year,Ocean (Rain),All day,15000,Fish,-1,-1,-1,-1,0,0,Largest,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/c/c2/Coelacanth_ACNH.png
+Crawfish,Apr - Sept,Pond,All day,200,Fish,-1,-1,4,9,0,0,Small,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/c/cb/Crawfish_ACNH.png
+Crucian Carp,All year,River,All day,160,Fish,-1,-1,-1,-1,0,0,Small,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/7/75/Crucian_Carp_ACNH.png
+Dab,Oct - Apr,Ocean,All day,300,Fish,-1,-1,10,4,0,0,Medium,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/4/4e/Dab_ACNH.png
+Dace,All year,River,4 PM - 9 AM,240,Fish,16,9,-1,-1,0,0,Medium,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/d/d6/Dace_ACNH.png
+Dorado,June - Sept,River,4 AM - 9 PM,15000,Fish,4,21,6,9,0,0,Extra Large,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/5/5e/Dorado_ACNH.png
+Football Fish,Nov - Mar,Ocean,4 PM - 9 AM,2500,Fish,16,9,11,3,0,0,Large,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/9/9b/Football_Fish_ACNH.png
+Freshwater Goby,All year,River,4 PM - 9 AM,400,Fish,16,9,-1,-1,0,0,Small,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/4/43/Freshwater_Goby_ACNH.png
+Frog,May - Aug,Pond,All day,120,Fish,-1,-1,5,8,0,0,Small,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/0/03/Frog_ACNH.png
+Gar,June - Sept,Pond,4 PM - 9 AM,6000,Fish,16,9,6,9,0,0,Largest,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/6a/Gar_ACNH.png
+Giant Snakehead,June - Aug,Pond,9 AM - 4 PM,5500,Fish,9,16,6,8,0,0,Extra Large,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/f/f3/Giant_Snakehead_ACNH.png
+Giant Trevally,May - Oct,Pier,All day,4500,Fish,-1,-1,5,10,0,0,Large,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/7/71/Giant_Trevally_ACNH.png
+Golden Trout,"Mar - May, Sept - Nov",River (Clifftop),4 PM - 9 AM,15000,Fish,16,9,3,5,9,11,Medium,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/9/97/Golden_Trout_ACNH.png
+Goldfish,All year,Pond,All day,1300,Fish,-1,-1,-1,-1,0,0,Smallest,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/3/3a/Goldfish_ACNH.png
+Great White Shark,June - Sept,Ocean,4 PM - 9 AM,15000,Fish,16,9,6,9,0,0,Largest (Fin),https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/9/90/Great_White_Shark_ACNH.png
+Guppy,Apr - Nov,River,9 AM - 4 PM,1300,Fish,9,16,4,11,0,0,Smallest,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/d/d0/Guppy_ACNH.png
+Hammerhead Shark,June - Sept,Ocean,4 PM - 9 AM,8000,Fish,16,9,6,9,0,0,Largest (Fin),https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/4/4c/Hammerhead_Shark_ACNH.png
+Horse Mackerel,All year,Ocean,All day,150,Fish,-1,-1,-1,-1,0,0,Small,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/d/d9/Horse_Mackerel_ACNH.png
+Killifish,Apr - Aug,Pond,All day,300,Fish,-1,-1,4,8,0,0,Smallest,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/e4/Killifish_ACNH.png
+King Salmon,Sept,River (Mouth),All day,1800,Fish,-1,-1,9,9,0,0,Smallest,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/5/56/King_Salmon_ACNH.png
+Koi,All year,Pond,4 PM - 9 AM,4000,Fish,16,9,-1,-1,0,0,Large,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/d/d6/Koi_ACNH.png
+Loach,Mar - May,River,All day,400,Fish,-1,-1,3,5,0,0,Small,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/a/a0/Loach_ACNH.png
+Mahi-mahi,May - Oct,Ocean,All day,2000,Fish,-1,-1,8,10,0,0,Large,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/4/4d/Mahi_Mahi_ACNH.png
+Mitten Crab,Sept - Nov,River,4 PM - 9 AM,2000,Fish,16,9,9,11,0,0,Small,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/3/38/Mitten_Crab_ACNH.png
+Moray Eel,Aug - Oct,Ocean,All day,2000,Fish,-1,-1,8,10,0,0,Extra Large,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/3/31/Moray_Eel_ACNH.png
+Napoleonfish,July - Aug,Ocean,All day,2000,Fish,-1,-1,7,8,0,0,Largest,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/ea/Napoleonfish_ACNH.png
+Neon Tetra,Apr - Nov,River,4 AM - 4 PM,500,Fish,4,16,4,11,0,0,Smallest,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/f/f7/Neon_Tetra_ACNH.png
+Nibble Fish,May - Sept,River,9 AM - 4 PM,1500,Fish,9,16,5,9,0,0,Small,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/6b/Nibble_Fish_ACNH.png
+Oarfish,Dec - May,Ocean,All day,9000,Fish,-1,-1,12,5,0,0,Largest,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/1/15/Oarfish_ACNH.png
+Ocean Sunfish,July - Sept,Ocean,4 AM - 9 PM,4000,Fish,4,21,7,9,0,0,Largest (Fin),https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/0/04/Ocean_Sunfish_ACNH.png
+Olive Flounder,All year,Ocean,All day,800,Fish,-1,-1,-1,-1,0,0,Large,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/c/cd/Olive_Flounder_ACNH.png
+Pale Chub,All year,River,9 AM - 4 PM,200,Fish,9,16,-1,-1,0,0,Smallest,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/61/Pale_Chub_ACNH.png
+Pike,Sept - Dec,River,All day,1800,Fish,-1,-1,9,12,0,0,Extra Large,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/c/ca/Pike_ACNH.png
+Piranha,June - Sept,River,"9 AM - 4 PM
+4 AM - 9 PM",2500,Fish,9,21,6,9,0,0,Small,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/e5/Piranha_ACNH.png
+Pond Smelt,Dec - Feb,River,All day,320,Fish,-1,-1,12,2,0,0,Small,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/5/5e/Pond_Smelt_ACNH.png
+Pop-eyed Goldfish,All year,Pond,9 AM - 4 PM,1300,Fish,9,16,-1,-1,0,0,Smallest,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/6f/Popeyed_Goldfish_ACNH.png
+Puffer Fish,July - Sept,Ocean,All day,250,Fish,-1,-1,7,9,0,0,Medium,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/7/7c/Puffer_Fish_ACNH.png
+Rainbowfish,May - Oct,River,9 AM - 4 PM,800,Fish,9,16,5,10,0,0,Small,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/b/b5/Rainbowfish_ACNH.png
+Ranchu Goldfish,All year,Pond,9 AM - 4 PM,4500,Fish,9,16,-1,-1,0,0,Small,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/7/7a/Ranchu_Goldfish_ACNH.png
+Ray,Aug - Nov,Ocean,4 AM - 9 PM,3000,Fish,4,21,8,11,0,0,Extra Large,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/4/48/Ray_ACNH.png
+Red Snapper,All year,Ocean,All day,3000,Fish,-1,-1,-1,-1,0,0,Large,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/5/54/Red_Snapper_ACNH.png
+Ribbon Eel,July - Oct,Ocean,All day,600,Fish,-1,-1,7,10,0,0,Narrow,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/3/34/Ribbon_Eel_ACNH.png
+Salmon,Sept,River (Mouth),All day,700,Fish,-1,-1,9,9,0,0,Small,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/1/11/Salmon_ACNH.png
+Surgeonfish,Apr - Sept,Ocean,All Day,1000,Fish,-1,-1,4,9,0,0,Small,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/2/2b/Surgeonfish_ACNH.png
+Saddled Bichir,June - Sept,River,9 PM - 4 AM,4000,Fish,21,4,6,9,0,0,Large,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/5/5e/Saddled_Bichir_ACNH.png
+Saw Shark,June - Sept,Ocean,4 PM - 9 AM,3750,Fish,16,9,6,9,0,0,Largest (Fin),https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/7/7b/Saw_Shark_ACNH.png
+Sea Bass,All year,Ocean,All day,400,Fish,-1,-1,-1,-1,0,0,Extra Large,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/e7/Sea_Bass_ACNH.png
+Sea Butterfly,Dec - Mar,Ocean,All day,1000,Fish,-1,-1,12,3,0,0,Smallest,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/1/16/Sea_Butterfly_ACNH.png
+Seahorse,Apr - Nov,Ocean,All day,1100,Fish,-1,-1,4,11,0,0,Smallest,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/e9/Seahorse_ACNH.png
+Snapping Turtle,Apr - Oct,River,9 AM - 4 PM,5000,Fish,9,4,4,10,0,0,Extra Large,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/5/5f/Snapping_Turtle_ACNH.png
+Soft-shelled Turtle,Aug - Sept,River,4 PM - 9 AM,12000,Fish,16,9,8,9,0,0,Large,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/8/8d/Soft_Shelled_Turtle_ACNH.png
+Squid,Dec - Aug,Ocean,All day,500,Fish,-1,-1,12,8,0,0,Medium,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/3/32/Squid_ACNH.png
+Stringfish,Dec - Mar,River (Clifftop),4 PM - 9 AM,15000,Fish,16,9,12,3,0,0,Largest,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/a/a4/Stringfish_ACNH.png
+Sturgeon,Sept - Mar,River (Mouth),All day,10000,Fish,-1,-1,9,3,0,0,Largest,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/ea/Sturgeon_ACNH.png
+Suckerfish,June - Sept,Ocean,All day,1500,Fish,-1,-1,6,9,0,0,(Fin),https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/1/1a/Suckerfish_ACNH.png
+Sweetfish,July - Sept,River,All day,900,Fish,-1,-1,7,9,0,0,Medium,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/a/a2/Sweetfish_ACNH.png
+Tadpole,Mar - July,Pond,All day,100,Fish,-1,-1,3,7,0,0,Smallest,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/b/b6/Tadpole_ACNH.png
+Tilapia,June - Oct,River,All day,800,Fish,-1,-1,6,10,0,0,Medium,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/2/2f/Tilapia_ACNH.png
+Tuna,Nov - Apr,Pier,All day,7000,Fish,-1,-1,11,4,0,0,Extra Large,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/3/3e/Tuna_ACNH.png
+Whale Shark,June - Sept,Ocean,All day,13000,Fish,-1,-1,6,9,0,0,Largest (Fin),https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/a/af/Whale_Shark_ACNH.png
+Yellow Perch,Oct - Mar,River,All day,300,Fish,-1,-1,10,3,0,0,Medium,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/9/9f/Yellow_Perch_ACNH.png
+Zebra Turkeyfish,"April - May, July - Nov",Ocean,All day,500,Fish,-1,-1,4,5,7,11,Medium,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/ea/Zebra_Turkeyfish_ACNH.png
+Agris Butterfly,Apr - Sept,Flying,8 AM - 5 PM,3000,Bug,8,17,4,9,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/2/22/Agrias_Butterfly_ACNH.png
+Ant,All year,On rotten fruit and turnips,All day,80,Bug,-1,-1,-1,-1,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/4/4f/Ant_ACNH.png
+Bagworm,All year,Shake tree,All day,600,Bug,-1,-1,-1,-1,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/3/38/Bagworm_ACNH.png
+Banded Dragonfly,May - Oct,Flying,8 AM - 5 PM,4500,Bug,,,,,,,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/8/88/Banded_Dragonfly_ACNH.png
+Bell Cricket,Sept - Oct,Grass,5 PM - 8 AM,430,Bug,17,8,9,10,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/f/fa/Bell_Cricket_ACNH.png
+Blue Weevil Beetle,July - Aug,Palm Tree,All day,800,Bug,,,,,,,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/e9/Blue_Weevil_Beetle_ACNH.png
+Brown Cicada,July - Aug,Tree,8 AM - 5 PM,250,Bug,8,17,7,8,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/7/7f/Brown_Cicada_ACNH.png
+Centipede,Sept - June,Hit rocks,5 PM - 11 PM,430,Bug,17,23,9,6,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/a/ac/Centipede_ACNH.png
+Cicada Shell,July - Aug,Tree,All day,10,Bug,,,,,,,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/ea/Cicada_Shell_ACNH.png
+Citrus Long-Horned Beetle,All year,Tree stump,All day,350,Bug,-1,-1,-1,-1,0,0,N/A,https://img.game8.jp/4175676/459d6fbfb7b941d32cddbbadc4afc8ed.jpeg/show
+Common Bluebottle,April - Aug,Flying,4 AM - 7 PM,300,Bug,4,19,4,8,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/1/10/Common_Bluebottle_ACNH.png
+Common Butterfly,Sept - June,Flying,4 AM - 7 PM,160,Bug,4,19,9,6,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/8/89/Common_Butterfly_ACNH.png
+Cricket,Sept - Nov,Ground,5 PM - 8 AM,130,Bug,17,8,9,11,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/0/0f/Cricket_ACNH.png
+Cyclommatus,July - Aug,Palm Tree,5 PM - 8 AM,8000,Bug,17,8,7,8,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/2/2a/Cyclommatus_ACNH.png
+Damselfly,Nov - Feb,Flying,All day,500,Bug,-1,-1,11,2,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/b/b6/Damselfly_ACNH.png
+Darner Dragonfly,Apr - Oct,Flying,8 AM - 5 PM,230,Bug,8,17,4,10,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/a/ae/Darner_Dragonfly_ACNH.png
+Diving Beetle,May - Sept,River,8 AM - 7 PM,800,Bug,8,19,5,9,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/f/f2/Diving_Beetle_ACNH.png
+Drone Beetle,Jun - Aug,Tree,All day,200,Bug,,,,,,,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/2/28/Drone_Beetle_ACNH.png
+Dung Beetle,Dec - Feb,Snowballs,All day,2500,Bug,-1,-1,12,2,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/f/ff/Dung_Beetle_ACNH.png
+Earth-Boring Dung Beetle,July - Sept,Ground,All day,300,Bug,-1,-1,7,9,0,0,N/A,https://img.game8.jp/4177947/9963f411cf8603e697a6074eb178027c.jpeg/show
+Emperor Butterfly,"Dec - Mar, June - Sept",Flying,5 PM - 8 AM,4000,Bug,17,8,12,3,6,9,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/7/73/Emperor_Butterfly_ACNH.png
+Evening Cicada,July - Aug,Tree,8 AM - 5 PM,550,Bug,8,17,7,8,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/f/fd/Evening_Cicada_ACNH.png
+Firefly,June,Flying,7 PM - 4 AM,300,Bug,,,,,,,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/4/4b/Firefly_ACNH.png
+Flea,Apr - Nov,On a flea-infested villager,All day,70,Bug,-1,-1,4,11,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/3/35/Flea_ACNH.png
+Fly,All year,On rotten fruit or garbage,All day,60,Bug,-1,-1,-1,-1,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/e4/Fly_ACNH.png
+Giant Cicada,July - Aug,Tree,8 AM - 5 PM,500,Bug,8,17,7,8,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/67/Giant_Cicada_ACNH.png
+Giant Stag,July - Aug,Tree,11 PM - 8 AM,10000,Bug,23,8,7,8,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/a/a9/Giant_Stag_ACNH.png
+Giant Water Bug,April - Sept,Ponds,7 PM - 8 AM,2000,Bug,,,,,,,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/2/26/Giant_Water_Bug_ACNH.png
+Giraffe Stag,July - Aug,Palm Tree,5 PM - 8 AM,12000,Bug,17,8,7,8,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/c/c5/Giraffe_Stag_ACNH.png
+Golden Stag,July - Aug,Palm Tree,5 PM - 8 AM,12000,Bug,17,8,7,8,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/a/a3/Golden_Stag_ACNH.png
+Goliath Beetle,June - Sept,Palm Tree,5 PM - 8 AM,8000,Bug,,,,,,,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/c/c4/Goliath_Beetle_ACNH.png
+Grasshopper,July - Sept,Ground,8 AM - 5 PM,160,Bug,8,17,7,9,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/e7/Grasshopper_ACNH.png
+Great Purple Emperor,May - Aug,Flying,4 AM - 7 PM,3000,Bug,4,19,5,8,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/e7/Great_Purple_Emperor_ACNH.png
+Hermit Crab,All year,Beach,7 PM - 8 AM,1000,Bug,19,8,-1,-1,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/d/d3/Hermit_Crab_ACNH.png
+Honeybee,Mar - July,Near flowers,8 AM - 5 PM,200,Bug,8,17,3,7,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/3/36/Honeybee_ACNH.png
+Horned Atlas,July - Aug,Palm Tree,5 PM - 8 AM,8000,Bug,17,8,7,8,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/d/d9/Horned_Atlas_ACNH.png
+Horned Dynastid,July - Aug,Tree,5 PM - 8 AM,1350,Bug,17,8,7,8,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/67/Horned_Dynastid_ACNH.png
+Horned Elephant,July - Aug,Palm Tree,5 PM - 8 AM,8000,Bug,17,8,7,8,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/0/0b/Horned_Elephant_ACNH.png
+Horned Hercules,July - Aug,Palm Tree,5 PM - 8 AM,12000,Bug,17,8,7,8,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/d/dd/Horned_Hercules_ACNH.png
+Jewel Beetle,April - Aug,Tree stump,All Day,2400,Bug,,,,,,,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/68/Jewel_Beetle_ACNH.png
+Ladybug,"Mar - June, Oct",Flowers,8 AM - 5 PM,200,Bug,8,17,3,6,10,10,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/f/f4/Ladybug_ACNH.png
+Long Locust,Apr - Nov,Ground,8 AM - 7 PM,200,Bug,8,19,4,11,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/4/4a/Long_Locust_ACNH.png
+Madagascan Sunset Moth,Apr - Sept,Flying,8 AM - 4 PM,2500,Bug,8,16,4,9,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/e3/Madagascan_Sunset_Moth_ACNH.png
+Man-Faced Stink Bug,Mar - Oct,Flowers,7 PM - 8 AM,1000,Bug,19,8,3,10,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/d/db/Man_faced_Stink_Bug_ACNH.png
+Mantis,Mar - Nov,Flowers,8 AM - 5 PM,430,Bug,8,17,3,11,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/66/Mantis_ACNH.png
+Migratory Locust,Feb - May,Ground,8 AM - 7 PM,200,Bug,8,19,2,5,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/7/70/Migratory_Locust_ACNH.png
+Miyama Stag,July - Aug,Tree,All day,1000,Bug,-1,-1,7,8,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/8/83/Miyama_Stag_ACNH.png
+Mole Cricket,Nov - May,Underground,All day,500,Bug,-1,-1,11,5,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/0/0a/Mole_Cricket_ACNH.png
+Monarch Butterfly,Sept - Nov,Flying,4 AM - 5 PM,140,Bug,4,17,9,11,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/7/77/Monarch_Butterfly_ACNH.png
+Mosquito,June - Sept,Flying,5 PM - 4 AM,130,Bug,17,4,6,9,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/4/41/Mosquito_ACNH.png
+Moth,All year,Lit windows,7 PM - 4 AM,130,Bug,19,4,-1,-1,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/69/Moth_ACNH.png
+Orchid Mantis,Mar - Nov,Flowers,8 AM - 5 PM,2400,Bug,8,17,3,11,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/a/a2/Orchid_Mantis_ACNH.png
+Paper Kite Butterfly,All year,Flying,8 AM - 7 PM,1000,Bug,8,19,-1,-1,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/e5/Paper_Kite_Butterfly_ACNH.png
+Peacock Butterfly,Mar - June,"Near black, blue, or purple flowers",4 AM - 7 PM,2500,Bug,4,19,3,6,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/2/2e/Peacock_Butterfly_ACNH.png
+Pill Bug,Sept - June,Hit rocks,11 PM - 4 PM,250,Bug,23,16,9,6,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/3/34/Pill_Bug_ACNH.png
+Pondskater,May - Sept,River,8 AM - 7 PM,130,Bug,8,19,5,9,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/1/19/Pondskater_ACNH.png
+Queen Alexandra’s Birdwing,May - Sept,Flying,8 AM - 4 PM,4000,Bug,8,16,5,9,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/8/83/Birdwing_ACNH.png
+Rainbow Stag,June - Sept,Tree,7 PM - 8 AM,6000,Bug,19,8,6,9,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/8/88/Rainbow_Stag_ACNH.png
+Rajah Brooke’s Birdwing,"Dec - Feb, Apr - Sept","Near black, blue, or purple flowers",8 AM - 5 PM,2500,Bug,8,17,12,2,4,9,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/1/10/Raja_Brooke_ACNH.png
+Red Dragonfly,Sept - Oct,Flying,8 AM - 7 PM,180,Bug,8,19,9,10,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/5/50/Red_Dragonfly_ACNH.png
+Rice Grasshopper,Aug - Nov,Ground,8 AM - 7 PM,160,Bug,8,19,8,11,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/a/aa/Rice_Grasshopper_ACNH.png
+Robust Cicada,July - Aug,Tree,8 AM - 5 PM,300,Bug,8,17,7,8,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/3/31/Robust_Cicada_ACNH.png
+Rosalia Batsei Beetle,May - June,Tree stump,All day,3000,Bug,-1,-1,5,6,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/5/54/Rosalia_Batesi_Beetle_ACNH.png
+Saw Stag,July - Aug,Tree,All day,2000,Bug,-1,-1,7,8,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/3/39/Saw_Stag_ACNH.png
+Scarab Beetle,July - Aug,Tree,11 PM - 8 AM,10000,Bug,,,,,,,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/8/81/Scarab_Beetle_ACNH.png
+Scorpion,May - Sept,Ground,7 PM - 4 AM,8000,Bug,Nigh,ight,TBD,,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/e0/Scorpion_ACNH.png
+Snail,All year,Rock (rain),All day,250,Bug,-1,-1,-1,-1,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/1/19/Snail_ACNH.png
+Spider,All year,Shake tree,7 PM - 8 AM,600,Bug,19,8,-1,-1,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/e/ed/Spider_ACNH.png
+Stinkbug,Mar - Oct,Flowers,All day,120,Bug,-1,-1,3,10,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/1/1a/Stink_Bug_ACNH.png
+Tarantula,Nov - Apr,Ground,7 PM - 4 AM,8000,Bug,19,4,11,4,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/1/11/Tarantula_ACNH.png
+Tiger Beetle,Feb - Oct,Ground,All day,1500,Bug,-1,-1,2,10,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/b/b1/Tiger_Beetle_ACNH.png
+Tiger Butterfly,Mar - Sept,Flying,4 AM - 7 PM,240,Bug,4,19,3,9,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/2/29/Tiger_Butterfly_ACNH.png
+Violin Beetle,"May - June, Sept - Nov",Tree stump,All day,450,Bug,-1,-1,5,6,9,11,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/62/Violin_Beetle_ACNH.png
+Walker Cicada,Aug - Sept,Tree,8 AM - 4 PM,400,Bug,8,16,8,9,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/63/Walker_Cicada_ACNH.png
+Walking Leaf,July - Sept,Ground,All day,600,Bug,-1,-1,7,9,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/0/06/Walking_Leaf_ACNH.png
+Walking Stick,July - Nov,Tree,"4 AM - 8 AM, 5 PM to 7 PM ",600,Bug,,,,,,,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/f/f4/Walkingstick_ACNH.png
+Wasp,All year,Shake tree,All day,2500,Bug,-1,-1,-1,-1,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/6/68/Wasp_ACNH.png
+Wharf Roach,All year,Beach (rocks),All day,200,Bug,-1,-1,-1,-1,0,0,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/7/76/Wharf_Roach_ACNH.png
+Yellow Butterfly,"Mar - June, Sept - Oct",Flying,4 AM - 7 PM,160,Bug,4,19,3,10,9,10,N/A,https://oyster.ignimgs.com/mediawiki/apis.ign.com/animal-crossing-new-horizons/0/0b/Yellow_Butterfly_ACNH.png

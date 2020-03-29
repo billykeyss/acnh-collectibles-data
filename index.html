@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Animal Crossing Data</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="js/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="js/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--===============================================================================================-->
+</head>
+<body>
+
+<div class="limiter">
+    <div class="container-info">
+        <div class="margin-top current-time">Current Time is</div>
+        <input type="text" class="margin-top form-control" id="filterInput" onkeyup="applyFilter()"
+               placeholder="Search for names..">
+        <div class="margin-top btn-group">
+            <button class="btn btn--stripe" id="All" onclick="applyFilter(id)">All</button>
+            <button class="btn btn--stripe" id="Bug" onclick="applyFilter(id)">Bugs</button>
+            <button class="btn btn--stripe" id="Fish" onclick="applyFilter(id)">Fish</button>
+			<button class="btn btn--stripe" id="Ocean" onclick="applyFilter(id)">Ocean</button>
+			<button class="btn btn--stripe" id="River" onclick="applyFilter(id)">River</button>
+			<button class="btn btn--stripe" id="Pier" onclick="applyFilter(id)">Pier</button>
+			<button class="btn btn--stripe" id="Pond" onclick="applyFilter(id)">Pond</button>
+        </div>
+    </div>
+    <div class="container-info">
+        <div class="btn-group">
+            <button class="btn btn--stripe" id="asc" onclick="sortTableByPrice(id)">Sort Price Ascending</button>
+            <button class="btn btn--stripe" id="desc" onclick="sortTableByPrice(id)">Sort Price Descending</button>
+        </div>
+    </div>
+
+</div>
+<div class="container-table100">
+    <div class="wrap-table100">
+        <table class="table custom-table"></table>
+    </div>
+</div>
+
+<!--===============================================================================================-->
+<script src="js/vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="js/vendor/lodash-core.js"></script>
+<!--===============================================================================================-->
+<script src="js/vendor/bootstrap/js/popper.js"></script>
+<script src="js/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/vendor/papaparse/papaparse.min.js"></script>
+<!--===============================================================================================-->
+<!--===============================================================================================-->
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
