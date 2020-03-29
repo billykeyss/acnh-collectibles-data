@@ -26,7 +26,6 @@
 body, html {
     height: 100%;
     font-family: sans-serif;
-    background: #c4d3f6;
     min-height: 100vh;
 }
 
@@ -104,7 +103,6 @@ iframe {
 
 .container-info {
     width: 100%;
-    background: #c4d3f6;
     font-family: Poppins-Regular;
 
     display: -webkit-box;
@@ -120,7 +118,6 @@ iframe {
 
 .container-table100 {
     width: 100%;
-    background: #c4d3f6;
 
     display: -webkit-box;
     display: -webkit-flex;
@@ -210,7 +207,7 @@ iframe {
 
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #f2f2f2;
+    border-bottom: 1px solid #0e0e0e;
 }
 
 .row.header .cell {
@@ -313,6 +310,7 @@ iframe {
 
 .form-control {
     text-align: center;
+    width: 250px;
 }
 
 .select2-container {

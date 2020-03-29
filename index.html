@@ -23,17 +23,20 @@
         <h1>ACNH Data Lookup</h1>
     </div>
     <div class="container-info">
-        <div class="margin-top current-time">Current Time is</div>
-        <input type="text" class="margin-top form-control" id="filterInput" onkeyup="applyFilter()"
-               placeholder="Search for names..">
+        <div class="margin-top btn-group btn-group-hemisphere">
+            <button class="btn btn--stripe btn--stripe-active" id="northern" onclick="changeHemisphere(id)">Northern Hemisphere</button>
+            <button class="btn btn--stripe" id="southern" onclick="changeHemisphere(id)">Southern Hemisphere</button>
+        </div>
+    </div>
+    <div class="container-info">
         <div class="margin-top btn-group btn-group-type">
             <button class="btn btn--stripe btn--stripe-active" id="All" onclick="applyFilter(id)">All</button>
             <button class="btn btn--stripe" id="Bug" onclick="applyFilter(id)">Bugs</button>
             <button class="btn btn--stripe" id="Fish" onclick="applyFilter(id)">Fish</button>
-			<button class="btn btn--stripe" id="Ocean" onclick="applyFilter(id)">Ocean</button>
-			<button class="btn btn--stripe" id="River" onclick="applyFilter(id)">River</button>
-			<button class="btn btn--stripe" id="Pier" onclick="applyFilter(id)">Pier</button>
-			<button class="btn btn--stripe" id="Pond" onclick="applyFilter(id)">Pond</button>
+            <button class="btn btn--stripe" id="Ocean" onclick="applyFilter(id)">Ocean</button>
+            <button class="btn btn--stripe" id="River" onclick="applyFilter(id)">River</button>
+            <button class="btn btn--stripe" id="Pier" onclick="applyFilter(id)">Pier</button>
+            <button class="btn btn--stripe" id="Pond" onclick="applyFilter(id)">Pond</button>
         </div>
     </div>
     <div class="container-info">
@@ -43,6 +46,11 @@
             <button class="btn btn--stripe" id="ascPrice" onclick="sortTableByPrice(id)">Sort Price Ascending</button>
             <button class="btn btn--stripe" id="descPrice" onclick="sortTableByPrice(id)">Sort Price Descending</button>
         </div>
+    </div>
+    <div class="container-info">
+        <div class="margin-top current-time"></div>
+        <input type="text" class="margin-top form-control" id="filterInput" onkeyup="applyFilter()"
+               placeholder="Search for names..">
     </div>
 
 </div>
