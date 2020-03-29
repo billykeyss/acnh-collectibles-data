@@ -15,6 +15,24 @@
             }
         });
     });
+    let typeButtons = $(".btn-group-type").children();
+    for (let i = 0; i < typeButtons.length; i++) {
+        typeButtons[i].addEventListener("click", function() {
+            let current = $(".btn-group-type .btn--stripe-active")[0];
+            current.classList.remove("btn--stripe-active");
+            this.className += " btn--stripe-active";
+        });
+    }
+
+    let sortButtons = $(".btn-group-sort").children();
+    for (let i = 0; i < sortButtons.length; i++) {
+        sortButtons[i].addEventListener("click", function() {
+            let current = $(".btn-group-sort .btn--stripe-active")[0];
+            current.classList.remove("btn--stripe-active");
+            this.className += " btn--stripe-active";
+        });
+    }
+
 })(jQuery);
 
 function parseCSVData(results) {
@@ -49,10 +67,20 @@ function parseCSVData(results) {
 
 function sortTableByPrice(type) {
     let data = window.value.data;
-    if (type === "asc") {
-        data = _.sortBy(data, "price");
-    } else if (type === "desc") {
-        data = _.sortBy(data, "price").reverse();
+    switch(type) {
+        case "ascPrice":
+            data = _.sortBy(data, "price");
+            break;
+        case "descPrice":
+            data = _.sortBy(data, "price").reverse();
+            break;
+        case "ascName":
+            data = _.sortBy(data, "name");
+            break;
+        case "descName":
+            data = _.sortBy(data, "name").reverse();
+            break;
+        default:
     }
     populateDataSource(data);
 }

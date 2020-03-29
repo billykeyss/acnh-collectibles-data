@@ -20,11 +20,14 @@
 
 <div class="limiter">
     <div class="container-info">
+        <h1>ACNH Data Lookup</h1>
+    </div>
+    <div class="container-info">
         <div class="margin-top current-time">Current Time is</div>
         <input type="text" class="margin-top form-control" id="filterInput" onkeyup="applyFilter()"
                placeholder="Search for names..">
-        <div class="margin-top btn-group">
-            <button class="btn btn--stripe" id="All" onclick="applyFilter(id)">All</button>
+        <div class="margin-top btn-group btn-group-type">
+            <button class="btn btn--stripe btn--stripe-active" id="All" onclick="applyFilter(id)">All</button>
             <button class="btn btn--stripe" id="Bug" onclick="applyFilter(id)">Bugs</button>
             <button class="btn btn--stripe" id="Fish" onclick="applyFilter(id)">Fish</button>
 			<button class="btn btn--stripe" id="Ocean" onclick="applyFilter(id)">Ocean</button>
@@ -34,9 +37,11 @@
         </div>
     </div>
     <div class="container-info">
-        <div class="btn-group">
-            <button class="btn btn--stripe" id="asc" onclick="sortTableByPrice(id)">Sort Price Ascending</button>
-            <button class="btn btn--stripe" id="desc" onclick="sortTableByPrice(id)">Sort Price Descending</button>
+        <div class="btn-group btn-group-sort">
+            <button class="btn btn--stripe btn--stripe-active" id="ascName" onclick="sortTableByPrice(id)">Sort Name Ascending</button>
+            <button class="btn btn--stripe" id="descName" onclick="sortTableByPrice(id)">Sort Name Descending</button>
+            <button class="btn btn--stripe" id="ascPrice" onclick="sortTableByPrice(id)">Sort Price Ascending</button>
+            <button class="btn btn--stripe" id="descPrice" onclick="sortTableByPrice(id)">Sort Price Descending</button>
         </div>
     </div>
 

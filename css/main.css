@@ -154,6 +154,7 @@ iframe {
 .row {
     display: table-row;
     background: #fff;
+    text-align: center;
 }
 
 .row.header {
@@ -277,6 +278,7 @@ iframe {
         padding-bottom: 18px;
         padding-top: 30px;
         padding-right: 15px;
+        padding-left: 15px;
         margin: 0;
     }
 
@@ -289,6 +291,7 @@ iframe {
 
     .row .cell:nth-child(1) {
         padding-left: 30px;
+        padding-right: 30px;
     }
 
     .row .cell {
