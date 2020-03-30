@@ -2,8 +2,8 @@ const MONTH_NAMES = ["January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"
 ];
 
-const NORTHERN_HEMISPHERE_BACKGROUND_COLOR = "#363062";
-const SOUTHERN_HEMISPHERE_BACKGROUND_COLOR = "#204051";
+const NORTHERN_HEMISPHERE_BACKGROUND_COLOR = "#8a79af";
+const SOUTHERN_HEMISPHERE_BACKGROUND_COLOR = "#6a8caf";
 const NORTHERN_HEMISPHERE_ROW_HEADER_COLOR = "#4d4c7d";
 const SOUTHERN_HEMISPHERE_ROW_HEADER_COLOR = "#3b6978";
 const FILENAME = "data.csv";
@@ -15,6 +15,9 @@ const DESC_PRICE = "descPrice";
 const DESC_NAME = "descName";
 const ASC_PRICE = "ascPrice";
 const ASC_NAME = "ascName";
+
+const NEW_ROW = "row-new";
+const ENDING_ROW = "row-end";
 
 var getFileBlob = function (url, cb) {
     var xhr = new XMLHttpRequest();
@@ -75,10 +78,10 @@ function parseCSVData(results) {
             northStartMonth2: parseInt(results.data[index][15]),
             northEndMonth1: parseInt(results.data[index][14]),
             northEndMonth2: parseInt(results.data[index][16]),
-            southStartMonth1: results.data[index][9],
-            southStartMonth2: results.data[index][11],
-            southEndMonth1: results.data[index][10],
-            southEndMonth2: results.data[index][12],
+            southStartMonth1: parseInt(results.data[index][9]),
+            southStartMonth2: parseInt(results.data[index][11]),
+            southEndMonth1: parseInt(results.data[index][10]),
+            southEndMonth2: parseInt(results.data[index][12]),
             location: results.data[index][3]
         })
     }

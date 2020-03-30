@@ -3,9 +3,6 @@ window.value = {};
 
 let dataSizeText = $(".data-size");
 
-const NEW_ROW = "row-new";
-const ENDING_ROW = "row-end";
-
 getFileObject(FILENAME, FILEPATH, function (fileObject) {
     Papa.parse(fileObject, {
         complete: function (results) {
