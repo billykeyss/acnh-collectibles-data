@@ -2,8 +2,10 @@ const MONTH_NAMES = ["January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"
 ];
 
-const NORTHERN_HEMISPHERE_BACKGROUND_COLOR = "#c5fadc";
-const SOUTHERN_HEMISPHERE_BACKGROUND_COLOR = "#c4d3f6";
+const NORTHERN_HEMISPHERE_BACKGROUND_COLOR = "#363062";
+const SOUTHERN_HEMISPHERE_BACKGROUND_COLOR = "#204051";
+const NORTHERN_HEMISPHERE_ROW_HEADER_COLOR = "#4d4c7d";
+const SOUTHERN_HEMISPHERE_ROW_HEADER_COLOR = "#3b6978";
 const FILENAME = "data.csv";
 const FILEPATH = "/data/data.csv";
 

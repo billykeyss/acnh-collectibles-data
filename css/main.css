@@ -5,6 +5,14 @@
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
+:root {
+    --new-row-color: #dcffcc;
+    --ending-row-color: #d79abc;
+    --row-header-color-north: #4d4c7d;
+    --row-header-color-south: #3b6978;
+    --row-hover-color: #c8e7ed;
+}
+
 
 @font-face {
     font-family: Poppins-Regular;
@@ -119,6 +127,7 @@ iframe {
 .container-title {
     width: 100%;
 
+    color: white;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -131,8 +140,9 @@ iframe {
 }
 
 .data-size {
-    margin-left:auto;
-    margin-right:0;
+    margin-left: auto;
+    margin-right: 0;
+    color: white;
 }
 
 .container-info {
@@ -188,7 +198,6 @@ iframe {
 
 .row.header {
     color: #ffffff;
-    background: #6c7ae0;
 }
 
 @media screen and (max-width: 768px) {
@@ -253,6 +262,25 @@ iframe {
     .cell {
         display: block;
     }
+}
+
+.row-new {
+    background: var(--new-row-color);
+}
+
+.row-end {
+    background: var(--ending-row-color);
+}
+
+.legend {
+    margin-left: 30px;
+    margin-top: 20px;
+    visibility: hidden;
+}
+
+.legend-row-item {
+    padding: 10px;
+    border-radius: 6px;
 }
 
 .row .cell {
@@ -329,8 +357,14 @@ iframe {
 }
 
 .row:hover {
-    background-color: #ececff;
+    background-color: var(--row-hover-color);
     cursor: pointer;
+}
+
+.row.header:hover {
+    color: #fff;
+    background-color: #424874;
+
 }
 
 .btn-group-catch {
@@ -369,6 +403,10 @@ iframe {
 
     .table, .row, .cell {
         width: 100% !important;
+    }
+
+    .form-control {
+        text-align: center;
     }
 }
 

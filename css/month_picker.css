@@ -19,7 +19,6 @@ a:hover {
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
     display: inline-block;
-    border: 1px solid gray;
     border-radius: 6px;
     padding: 10px 30px 10px 20px;
     background-color: #ffffff;
@@ -36,9 +35,9 @@ a:hover {
     transform: translateY(-50%);
     width: 0;
     height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid black;
+    /*border-left: 5px solid transparent;*/
+    /*border-right: 5px solid transparent;*/
+    /*border-top: 5px solid black;*/
 }
 
 .dd-button:hover {
@@ -55,7 +54,6 @@ a:hover {
 .dd-menu {
     position: absolute;
     top: 100%;
-    border: 1px solid #ccc;
     border-radius: 4px;
     padding: 0;
     margin: 2px 0 0 0;

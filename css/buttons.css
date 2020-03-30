@@ -15,7 +15,7 @@
     padding: 8px 18px 11px;
     background-color: #fff;
     color: #666;
-    border: 2px solid #666;
+    border: 1px solid #666;
     border-radius: 6px;
     margin-bottom: 16px;
     -webkit-transition: all .5s ease;
@@ -46,21 +46,15 @@
 .btn--stripe:hover {
     background-color: #666;
     color: #fff;
-    border-color: #000;
 }
 .btn--stripe:hover:after {
     background-image: repeating-linear-gradient(45deg, #fff, #fff 1px, transparent 2px, transparent 5px);
-    border-top: 1px solid #000;
     -webkit-animation: stripe-slide 12s infinite linear forwards;
     animation: stripe-slide 12s infinite linear forwards;
 }
 .btn--stripe-active {
     background-color: #666;
     color: #fff;
-    border-color: #000;
-}
-.btn--stripe-active {
-    border-top: 1px solid #000;
 }
 .btn--large {
     width: 50%;
@@ -68,7 +62,6 @@
 .btn--radius {
     border-radius: 36px;
 }
-
 @-webkit-keyframes stripe-slide {
     0% {
         background-position: 0% 0;
@@ -85,7 +78,6 @@
         background-position: 100% 0;
     }
 }
-
 .btn-group {
     flex-wrap: wrap;
 }

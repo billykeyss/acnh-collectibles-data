@@ -74,6 +74,8 @@
 <div class="container-table100">
     <input type="text" class="margin-top form-control" id="filterInput" onkeyup="applyFilter()"
            placeholder="Search for names..">
+    <button class="legend legend-row-item row-new" id="new" onclick="applyScheduleFilter(id)">New This Month</button>
+    <button class="legend legend-row-item row-end" id="end" onclick="applyScheduleFilter(id)">Ending This Month</button>
     <div class="margin-top data-size"></div>
     <div class="wrap-table100 margin-top">
         <table class="table custom-table"></table>

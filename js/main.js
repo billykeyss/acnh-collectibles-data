@@ -3,12 +3,15 @@ window.value = {};
 
 let dataSizeText = $(".data-size");
 
+const NEW_ROW = "row-new";
+const ENDING_ROW = "row-end";
+
 getFileObject(FILENAME, FILEPATH, function (fileObject) {
     Papa.parse(fileObject, {
         complete: function (results) {
             let data = parseCSVData(results);
-            window.value.data = data;
             window.value.currentSort = DESC_PRICE;
+            window.value.data = sortData(data, window.value.currentSort);
             changeHemisphere(NORTHERN);
             applyFilter("All");
         }
@@ -19,7 +22,7 @@ $(".dd-button").click(function () {
     applyDateFilter($(".month-text").text());
 });
 
-window.onclick = function(event) {
+window.onclick = function (event) {
     if (!event.target.matches('.dd-input')) {
         $(".dd-input").prop("checked", false);
     }
@@ -94,6 +97,11 @@ function applyDateFilter(month) {
     let shouldInclude = false;
     if (month === "AllMonths") {
         shouldInclude = true;
+        $(".legend-row-item.row-new").css("visibility", "hidden");
+        $(".legend-row-item.row-end").css("visibility", "hidden");
+    } else {
+        $(".legend-row-item.row-new").css("visibility", "visible");
+        $(".legend-row-item.row-end").css("visibility", "visible");
     }
 
     window.value.currentMonth = month;
@@ -123,6 +131,34 @@ function applyDateFilter(month) {
         applyFilter(window.value.currentFilter)
     } else {
         dataSizeText.text("Currently Displaying: " + tempData.length + " items.");
+    }
+}
+
+function applyScheduleFilter(schedule) {
+    let filter, table, tr, td, i;
+    if (window.value.schedule === schedule) {
+        window.value.schedule = "";
+        filter = "row";
+    } else if (schedule === "new") {
+        filter = "row-new";
+        window.value.schedule = schedule;
+    } else if (schedule === "end") {
+        filter = "row-end";
+        window.value.schedule = schedule;
+    }
+
+    table = $(".custom-table");
+    tr = table.children();
+    // Loop through all table rows, and hide those who don't match the search query
+    for (i = 1; i < tr.length; i++) {
+        td = tr[i];
+        if (td) {
+            if (td.className.includes(filter)) {
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
+        }
     }
 }
 
@@ -160,13 +196,25 @@ function populateDataSource(data, type = "All") {
         "<div class=\"cell\">" + headerData.size + "</div>" +
         "<div class=\"cell\">" + headerData.location + "</div></div>");
 
-
     for (let i = 0; i < data.length; i++) {
         let shouldAppend = type === "All" || type === data[i].type;
 
         if (shouldAppend) {
+            let isNew = false;
+            let isEnding = false;
+            if (window.value.currentMonth) {
+                let monthIndex = MONTH_NAMES.indexOf(window.value.currentMonth) + 1;
+
+                if (isNorthernHemisphere()) {
+                    isNew = data[i].northStartMonth1 === monthIndex || data[i].northStartMonth2 === monthIndex;
+                    isEnding = data[i].northEndMonth1 === monthIndex || data[i].northEndMonth2 === monthIndex;
+                } else if (isSouthernHemisphere()) {
+                    isNew = data[i].southStartMonth1 === monthIndex || data[i].southStartMonth2 === monthIndex;
+                    isEnding = data[i].southEndMonth1 === monthIndex || data[i].southEndMonth2 === monthIndex;
+                }
+            }
             table.append(
-                "<div class=\"row\">" +
+                "<div class=\"row" + (isNew ? " " + NEW_ROW : "") + (isEnding ? " " + ENDING_ROW : "") + "\">" +
                 "<div class=\"cell\"><img src=" + data[i].image + "></div>" +
                 "<div class=\"cell\">" + data[i].name + "</div>" +
                 "<div class=\"cell\">" + (window.value.hemisphere === NORTHERN ? data[i].northernDate : data[i].southernDate) + "</div>" +
@@ -176,6 +224,12 @@ function populateDataSource(data, type = "All") {
                 "<div class=\"cell\">" + data[i].size + "</div>" +
                 "<div class=\"cell\">" + data[i].location + "</div></div>");
         }
+    }
+
+    if (isNorthernHemisphere()) {
+        $(".header").css('background', NORTHERN_HEMISPHERE_ROW_HEADER_COLOR);
+    } else if (isSouthernHemisphere()) {
+        $(".header").css('background', SOUTHERN_HEMISPHERE_ROW_HEADER_COLOR);
     }
 }
 
