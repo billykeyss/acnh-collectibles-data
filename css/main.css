@@ -1,3 +1,4 @@
+@import "month_picker.css";
 @import "buttons.css";
 @import "util.css";
 
@@ -25,7 +26,7 @@
 
 body, html {
     height: 100%;
-    font-family: sans-serif;
+    font-family: Poppins-Regular;
     min-height: 100vh;
 }
 
@@ -101,9 +102,8 @@ iframe {
     margin: 0 auto;
 }
 
-.container-info {
+.container-btn {
     width: 100%;
-    font-family: Poppins-Regular;
 
     display: -webkit-box;
     display: -webkit-flex;
@@ -112,6 +112,38 @@ iframe {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    padding: 33px 33px 0px 33px;
+}
+
+.container-title {
+    width: 100%;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 33px 33px 0px 33px;
+}
+
+.data-size {
+    margin-left:auto;
+    margin-right:0;
+}
+
+.container-info {
+    width: 100%;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
     flex-wrap: wrap;
     padding: 33px 33px 0px 33px;
 }
@@ -185,6 +217,36 @@ iframe {
         content: attr(data-title);
         min-width: 98px;
         display: block;
+    }
+
+    .container-info {
+        width: 100%;
+        font-family: Poppins-Regular;
+
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 33px 33px 0px 33px;
+    }
+
+    .data-size {
+        margin: 0;
+    }
+
+    .btn-group {
+        justify-content: center;
+        flex-wrap: wrap;
+        padding:5px;
+    }
+
+    .btn-group>.btn:last-child:not(:first-child) {
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
     }
 }
 
@@ -269,6 +331,10 @@ iframe {
     cursor: pointer;
 }
 
+.btn-group-catch {
+    margin-right: 20px;
+}
+
 @media (max-width: 768px) {
     .row {
         border-bottom: 1px solid #0e0e0e;
@@ -309,7 +375,6 @@ iframe {
 }
 
 .form-control {
-    text-align: center;
     width: 250px;
 }
 

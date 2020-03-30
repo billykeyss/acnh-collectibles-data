@@ -1,3 +1,19 @@
+const MONTH_NAMES = ["January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+];
+
+const NORTHERN_HEMISPHERE_BACKGROUND_COLOR = "#c5fadc";
+const SOUTHERN_HEMISPHERE_BACKGROUND_COLOR = "#c4d3f6";
+const FILENAME = "data.csv";
+const FILEPATH = "/data/data.csv";
+
+const NORTHERN = "northern";
+const SOUTHERN = "southern";
+const DESC_PRICE = "descPrice";
+const DESC_NAME = "descName";
+const ASC_PRICE = "ascPrice";
+const ASC_NAME = "ascName";
+
 var getFileBlob = function (url, cb) {
     var xhr = new XMLHttpRequest();
     xhr.open("GET", url);
@@ -19,6 +35,54 @@ var getFileObject = function(filename, filePathOrUrl, cb) {
         cb(blobToFile(blob, filename));
     });
 };
+
+function parseCSVData(results) {
+    let data = [];
+
+    window.value.headerData = {
+        name: results.data[0][0],
+        northernDate: results.data[0][2],
+        southernDate: results.data[0][1],
+        time: results.data[0][4],
+        price: results.data[0][5],
+        type: results.data[0][6],
+        size: results.data[0][17],
+        image: results.data[0][18],
+        northStartMonth1: results.data[0][13],
+        northStartMonth2: results.data[0][15],
+        northEndMonth1: results.data[0][14],
+        northEndMonth2: results.data[0][16],
+        southStartMonth1: results.data[0][9],
+        southStartMonth2: results.data[0][11],
+        southEndMonth1: results.data[0][10],
+        southEndMonth2: results.data[0][12],
+        location: results.data[0][3]
+    };
+
+    for (let index = 1; index < results.data.length; index++) {
+        data.push({
+            name: results.data[index][0],
+            northernDate: results.data[index][2],
+            southernDate: results.data[index][1],
+            time: results.data[index][4],
+            price: parseInt(results.data[index][5]),
+            type: results.data[index][6],
+            size: results.data[index][17],
+            image: results.data[index][18],
+            northStartMonth1: parseInt(results.data[index][13]),
+            northStartMonth2: parseInt(results.data[index][15]),
+            northEndMonth1: parseInt(results.data[index][14]),
+            northEndMonth2: parseInt(results.data[index][16]),
+            southStartMonth1: results.data[index][9],
+            southStartMonth2: results.data[index][11],
+            southEndMonth1: results.data[index][10],
+            southEndMonth2: results.data[index][12],
+            location: results.data[index][3]
+        })
+    }
+
+    return data;
+}
 
 function formatDate(date, utc) {
     var MMMM = ["\x00", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];

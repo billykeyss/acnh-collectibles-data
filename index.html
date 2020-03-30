@@ -19,16 +19,39 @@
 <body>
 
 <div class="limiter">
-    <div class="container-info">
+    <div class="container-title">
         <h1>ACNH Data Lookup</h1>
     </div>
-    <div class="container-info">
+    <div class="container-btn">
+        <div class="margin-top btn-group btn-group-catch">
+            <button class="btn btn--stripe btn--stripe-active" id="AllMonths" onclick="applyDateFilter(id)">All</button>
+            <label class="dropdown dd-button">
+                <div class="month-text">By Month</div>
+                <input type="checkbox" class="dd-input" id="test">
+                <ul class="dd-menu" id="list" style="z-index: 1000;">
+                    <li id="jan">January</li>
+                    <li id="feb">February</li>
+                    <li id="mar">March</li>
+                    <li id="apr">April</li>
+                    <li id="may">May</li>
+                    <li id="jun">June</li>
+                    <li id="jul">July</li>
+                    <li id="aug">August</li>
+                    <li id="sep">September</li>
+                    <li id="oct">October</li>
+                    <li id="nov">November</li>
+                    <li id="dec">December</li>
+                </ul>
+            </label>
+        </div>
         <div class="margin-top btn-group btn-group-hemisphere">
-            <button class="btn btn--stripe btn--stripe-active" id="northern" onclick="changeHemisphere(id)">Northern Hemisphere</button>
+            <button class="btn btn--stripe btn--stripe-active" id="northern" onclick="changeHemisphere(id)">Northern
+                Hemisphere
+            </button>
             <button class="btn btn--stripe" id="southern" onclick="changeHemisphere(id)">Southern Hemisphere</button>
         </div>
     </div>
-    <div class="container-info">
+    <div class="container-btn">
         <div class="margin-top btn-group btn-group-type">
             <button class="btn btn--stripe btn--stripe-active" id="All" onclick="applyFilter(id)">All</button>
             <button class="btn btn--stripe" id="Bug" onclick="applyFilter(id)">Bugs</button>
@@ -39,23 +62,22 @@
             <button class="btn btn--stripe" id="Pond" onclick="applyFilter(id)">Pond</button>
         </div>
     </div>
-    <div class="container-info">
+    <div class="container-btn">
         <div class="btn-group btn-group-sort">
-            <button class="btn btn--stripe btn--stripe-active" id="ascName" onclick="sortTableByPrice(id)">Sort Name Ascending</button>
-            <button class="btn btn--stripe" id="descName" onclick="sortTableByPrice(id)">Sort Name Descending</button>
-            <button class="btn btn--stripe" id="ascPrice" onclick="sortTableByPrice(id)">Sort Price Ascending</button>
-            <button class="btn btn--stripe" id="descPrice" onclick="sortTableByPrice(id)">Sort Price Descending</button>
+            <button class="btn btn--stripe" id="ascName" onclick="sortTable(id)">Sort Name
+                Ascending
+            </button>
+            <button class="btn btn--stripe" id="descName" onclick="sortTable(id)">Sort Name Descending</button>
+            <button class="btn btn--stripe" id="ascPrice" onclick="sortTable(id)">Sort Price Ascending</button>
+            <button class="btn btn--stripe btn--stripe-active" id="descPrice" onclick="sortTable(id)">Sort Price Descending</button>
         </div>
     </div>
-    <div class="container-info">
-        <div class="margin-top current-time"></div>
-        <input type="text" class="margin-top form-control" id="filterInput" onkeyup="applyFilter()"
-               placeholder="Search for names..">
-    </div>
-
 </div>
 <div class="container-table100">
-    <div class="wrap-table100">
+    <input type="text" class="margin-top form-control" id="filterInput" onkeyup="applyFilter()"
+           placeholder="Search for names..">
+    <div class="margin-top data-size"></div>
+    <div class="wrap-table100 margin-top">
         <table class="table custom-table"></table>
     </div>
 </div>
