@@ -150,7 +150,8 @@ function applyScheduleFilter(schedule) {
     for (i = 1; i < tr.length; i++) {
         td = tr[i];
         if (td) {
-            if (td.className.includes(filter)) {
+            let txtValue = td.textContent || td.innerText;
+            if (td.className.includes(filter) && txtValue.includes(window.value.currentFilter)) {
                 tr[i].style.display = "";
             } else {
                 tr[i].style.display = "none";
